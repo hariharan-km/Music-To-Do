@@ -47,7 +47,7 @@ function MusicCard({ music, onDelete, onFavorite }) {
           onClick={() => onDelete(music.id)}
           className="bg-red-600 px-3 py-1 rounded hover:bg-red-700 text-sm"
         >
-          ❌ Delete
+          ❌ Delete!
         </button>
       </div>
     </div>
